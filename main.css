@@ -1,0 +1,30 @@
+#example {position:relative;}
+.one, .two,.three,.four,.five{
+  position: absolute;
+}
+
+.one	{
+  z-index: 0;
+  left: 0; top: 0;
+  margin: 0 auto
+  }
+.two	{
+  z-index: 10;
+  left: 10px; top: 10px;
+  margin: 0 auto
+  }
+.three	{
+  z-index: 0;
+  left: 200px; top: 10px;
+  margin: 0 auto
+  }
+.four	{
+  z-index: 0;
+  left: 450px; top: 10px;
+  margin: 0 auto
+  }
+.five	{
+  z-index: 0;
+  left: 700px; top: 10px;
+  margin: 0 auto
+  }
